@@ -1,0 +1,9 @@
+exports['changes an object 1'] = {
+  "fooBar": 42
+}
+
+exports['leaves camel cased properties unchanged 1'] = {
+  "fooBar": 42,
+  "bazFoo": "value"
+}
+
