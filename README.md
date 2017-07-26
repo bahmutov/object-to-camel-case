@@ -18,6 +18,16 @@ npm install --save object-to-camel-case
 
 ## Use
 
+```js
+const objectToCamelCase = require('object-to-camel-case')
+const output = objectToCamelCase({
+  fooBar: 42,
+  baz_foo: 'value'
+})
+// output has every property camelCased
+// {fooBar: 42, bazFoo: 'value'}
+```
+
 ### Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2017
